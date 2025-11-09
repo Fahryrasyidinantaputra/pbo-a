@@ -1,0 +1,7 @@
+<?php
+require_once('./LuasLingkaran.php'); // cara panggil file
+use App\Math\LuasLingkaran;          // panggil class
+
+$lingkaran = new LuasLingkaran(10);
+$lingkaran->tampil('roda');
+LuasLingkaran::testing();
